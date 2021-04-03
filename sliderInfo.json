@@ -1,0 +1,28 @@
+[
+    {
+        "img": "./img/SeaVoyages.jpg",
+        "title": "Sea Voyages",
+        "description": "Professional Guides"
+    },
+    {
+        "img": "./img/MountainClimb.jpg",
+        "title": "Mountain Climbs",
+        "description": "Safe Guides"
+    },
+
+    {
+        "img": "./img/QuadRides.jpg",
+        "title": "Quad Rides",
+        "description": "Expert Drivers"
+    },
+    {
+        "img": "./img/SeaVoyages.jpg",
+        "title": "Sea Voyages",
+        "description": "Professional Guides"
+    },
+    {
+        "img": "./img/MountainClimb.jpg",
+        "title": "Mountain Climbs",
+        "description": "Safe Guides"
+    }
+]
