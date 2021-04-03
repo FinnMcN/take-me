@@ -1,0 +1,15 @@
+export { default as Header } from "./Header";
+export { default as LocationSearchFirst } from "./LocationSearchFirst";
+export { default as LocationSearchSecond } from "./LocationSearchSecond";
+export { default as Sight } from "./Sight";
+export { default as CitiesRate } from "./CitiesRate";
+export { default as SliderBlock } from "./Slider";
+export { default as Subscribe } from "./Subscribe";
+export { default as Map } from "./Map";
+export { default as VideoBlock } from "./VideoBlock";
+export { default as ContactUs } from "./ContactUs";
+export { default as Reviews } from "./Reviews";
+export { default as TravelTags } from "./TravelTags";
+export { default as ChooseTrip } from "./ChooseTrip";
+export { default as DownloadApp } from "./DownloadApp";
+export { default as Footer } from "./Footer";
