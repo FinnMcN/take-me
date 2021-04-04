@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/take-me/static/css/main.0a53b0b5.chunk.css",
-    "main.js": "/take-me/static/js/main.2f8eda26.chunk.js",
-    "main.js.map": "/take-me/static/js/main.2f8eda26.chunk.js.map",
+    "main.css": "/take-me/static/css/main.46f4d985.chunk.css",
+    "main.js": "/take-me/static/js/main.f400c2c5.chunk.js",
+    "main.js.map": "/take-me/static/js/main.f400c2c5.chunk.js.map",
     "runtime-main.js": "/take-me/static/js/runtime-main.47d342e7.js",
     "runtime-main.js.map": "/take-me/static/js/runtime-main.47d342e7.js.map",
     "static/css/2.70f84327.chunk.css": "/take-me/static/css/2.70f84327.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.535a83fb.chunk.js.map": "/take-me/static/js/2.535a83fb.chunk.js.map",
     "index.html": "/take-me/index.html",
     "static/css/2.70f84327.chunk.css.map": "/take-me/static/css/2.70f84327.chunk.css.map",
-    "static/css/main.0a53b0b5.chunk.css.map": "/take-me/static/css/main.0a53b0b5.chunk.css.map",
+    "static/css/main.46f4d985.chunk.css.map": "/take-me/static/css/main.46f4d985.chunk.css.map",
     "static/js/2.535a83fb.chunk.js.LICENSE.txt": "/take-me/static/js/2.535a83fb.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/take-me/static/media/slick.c94f7671.ttf"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.47d342e7.js",
     "static/css/2.70f84327.chunk.css",
     "static/js/2.535a83fb.chunk.js",
-    "static/css/main.0a53b0b5.chunk.css",
-    "static/js/main.2f8eda26.chunk.js"
+    "static/css/main.46f4d985.chunk.css",
+    "static/js/main.f400c2c5.chunk.js"
   ]
 }
