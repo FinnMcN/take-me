@@ -2,8 +2,8 @@ import React from "react";
 
 function ContactUs() {
     return (
-        <div className="contact__us">
-            <img src="./img/ContactUs.jpg" width="587px" height="670px" />
+        <section className="contact__us">
+            <img src="./img/ContactUs.jpg" width="587px" height="650px" />
             <div className="container">
                 <div className="contact__us--form">
                     <h1>Contact Us</h1>
@@ -35,7 +35,7 @@ function ContactUs() {
                     </button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

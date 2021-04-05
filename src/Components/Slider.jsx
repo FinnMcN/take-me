@@ -52,7 +52,7 @@ function SliderBlock(props) {
         const json = await response.json();
 
         const content = json.map((content, index) => (
-            <div ref={sliderItems} key={index} className="slider__item">
+            <section ref={sliderItems} key={index} className="slider__item">
                 <img src={content.img} alt="" />
                 <div className="photo__content">
                     <div className="photo__content--top">
@@ -70,7 +70,7 @@ function SliderBlock(props) {
                         <h1>{content.title}</h1>
                     </div>
                 </div>
-            </div>
+            </section>
         ));
 
         getSliderContent(content);

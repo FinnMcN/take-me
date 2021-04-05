@@ -3,7 +3,7 @@ import Rating from "./Rating";
 
 function Reviews() {
     return (
-        <div className="reviews">
+        <section className="reviews">
             <div className="container">
                 <div className="reviews__top">
                     <div className="reviews__top--count">Reviews (256)</div>
@@ -104,7 +104,7 @@ function Reviews() {
                     <button className="button">Load More</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

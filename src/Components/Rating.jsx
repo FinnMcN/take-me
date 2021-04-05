@@ -35,7 +35,7 @@ function Rating({ size }) {
 
     if (size === "star") {
         return (
-            <div className="rating">
+            <section className="rating">
                 <span
                     className="current"
                     style={{
@@ -51,11 +51,11 @@ function Rating({ size }) {
                 <div className="rating__number">
                     {Math.floor(averageToDisplay * 100) / 100} Rating
                 </div>
-            </div>
+            </section>
         );
     } else if (size === "small__star") {
         return (
-            <div className="rating">
+            <section className="rating">
                 <span
                     className="current"
                     style={{
@@ -68,7 +68,7 @@ function Rating({ size }) {
                     <div className={size + " " + 2} onClick={(e) => onClickStar(e, size)}></div>
                     <div className={size + " " + 1} onClick={(e) => onClickStar(e, size)}></div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

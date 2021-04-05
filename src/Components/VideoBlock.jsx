@@ -2,7 +2,7 @@ import React from "react";
 
 function VideoBlock() {
     return (
-        <div className="video__block">
+        <section className="video__block">
             <div className="container">
                 <h1>See Dubai from the sky</h1>
                 <div className="video__container">
@@ -12,7 +12,7 @@ function VideoBlock() {
                         allowFullScreen></iframe>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

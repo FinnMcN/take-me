@@ -34,7 +34,7 @@ function Sight() {
     };
 
     return (
-        <div className="sight" id="sight">
+        <section className="sight" id="sight">
             <div className="container">
                 <div className="sight__left_content">
                     <h1>Magical Santorini Greece’s Jewel</h1>
@@ -49,30 +49,30 @@ function Sight() {
                 <div className="sight__photo_slider">
                     <Slider {...settings}>
                         <div>
-                            <img src={"/img/img_for_photoslider1.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider1.jpg"} alt="" />
                         </div>
                         <div>
-                            <img src={"/img/img_for_photoslider2.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider2.jpg"} alt="" />
                         </div>
                         <div>
-                            <img src={"/img/img_for_photoslider2.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider2.jpg"} alt="" />
                         </div>
                         <div>
-                            <img src={"/img/img_for_photoslider2.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider2.jpg"} alt="" />
                         </div>
                         <div>
-                            <img src={"/img/img_for_photoslider2.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider2.jpg"} alt="" />
                         </div>
                         <div>
-                            <img src={"/img/img_for_photoslider2.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider2.jpg"} alt="" />
                         </div>
                         <div>
-                            <img src={"/img/img_for_photoslider2.jpg"} alt="" />
+                            <img src={"./img/img_for_photoslider2.jpg"} alt="" />
                         </div>
                     </Slider>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

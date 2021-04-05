@@ -2,7 +2,7 @@ import React from "react";
 
 function DownloadApp() {
     return (
-        <div className="download">
+        <section className="download">
             <div className="container">
                 <div className="img__container">
                     <img src="./img/iphone_double_click_to_edit.png" alt="photo" />
@@ -19,7 +19,7 @@ function DownloadApp() {
                     </button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

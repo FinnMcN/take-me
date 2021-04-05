@@ -4,7 +4,7 @@ function Header({ nav }) {
     const [menu, toggleMenu] = useState(false);
 
     useEffect(() => {
-        window.addEventListener("scroll", () => {
+        window.addEventListener("scroll", (e) => {
             if (menu) {
                 toggleMenu(false);
             }
@@ -12,7 +12,7 @@ function Header({ nav }) {
     });
 
     return (
-        <div className="header">
+        <section className="header">
             <div className="container">
                 <div className="header__content">
                     <div className="header__logo">
@@ -40,7 +40,7 @@ function Header({ nav }) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

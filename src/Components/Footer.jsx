@@ -12,7 +12,7 @@ function Footer() {
     };
 
     return (
-        <div className="footer">
+        <section className="footer">
             <div className="footer__top">
                 <div className="container">
                     <div className="links__block">
@@ -124,7 +124,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

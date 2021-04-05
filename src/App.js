@@ -30,35 +30,20 @@ function App() {
                     "Log In",
                 ]}
             />
-            <div className="border"></div>
             <LocationSearchFirst />
-            <div className="border"></div>
             <LocationSearchSecond />
-            <div className="border"></div>
             <Sight />
-            <div className="border"></div>
             <CitiesRate />
-            <div className="border"></div>
-            <SliderBlock content="/sliderInfo.json" />
-            <div className="border"></div>
+            <SliderBlock content="./sliderInfo.json" />
             <Subscribe />
-            <div className="border"></div>
             <ContactUs />
-            <div className="border"></div>
             <Reviews />
-            <div className="border"></div>
             <TravelTags />
-            <div className="border"></div>
             <ChooseTrip />
-            <div className="border"></div>
             <Map />
-            <div className="border"></div>
             <VideoBlock />
-            <div className="border"></div>
             <DownloadApp />
-            <div className="border"></div>
             <Footer />
-            <div className="border"></div>
         </div>
     );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function LocationSearch() {
     return (
-        <div className="location__search">
+        <section className="location__search">
             <div className="container">
                 <h1>Find Your Dream Vacation Location</h1>
                 <p>
@@ -26,7 +26,7 @@ function LocationSearch() {
                     </form>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

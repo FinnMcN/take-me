@@ -34,7 +34,7 @@ function ChooseTrip() {
     };
 
     return (
-        <div className="choose__trip">
+        <section className="choose__trip">
             <div className="container">
                 <div className="offer__trip">
                     <div className="offer__trip--top">
@@ -284,7 +284,7 @@ function ChooseTrip() {
                     <a href="#">6</a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

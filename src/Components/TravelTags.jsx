@@ -6,7 +6,7 @@ function TravelTags() {
     };
 
     return (
-        <div className="travel__tags">
+        <section className="travel__tags">
             <div className="container">
                 <p>Where do you want to travel today</p>
                 <div className="travel__tags--bottom">
@@ -25,14 +25,6 @@ function TravelTags() {
                         </div>
                         <div className="tag">
                             Cheap
-                            <span onClick={(e) => removeTag(e)}></span>
-                        </div>
-                        <div className="tag">
-                            Australia
-                            <span onClick={(e) => removeTag(e)}></span>
-                        </div>
-                        <div className="tag">
-                            London
                             <span onClick={(e) => removeTag(e)}></span>
                         </div>
                         <div className="tag">
@@ -59,7 +51,7 @@ function TravelTags() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

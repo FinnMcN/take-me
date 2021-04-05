@@ -13,6 +13,12 @@ a {
     text-decoration: none;
 }
 
+.wrapper {
+    > * {
+        border-bottom: 20px solid #d7d7d7;
+    }
+}
+
 .container {
     width: 100%;
     max-width: 1472px;
@@ -80,7 +86,7 @@ a {
 }
 
 .header {
-    position: sticky;
+    
     top: 0;
     width: 100%;
     background-color: #fff;
@@ -216,15 +222,6 @@ a {
     }
 }
 
-.border {
-    display: block;
-    background-color: #d7d7d7;
-    height: 20px;
-    :first-child {
-        margin-top: 120px;
-    }
-}
-
 .location__search,
 .location__search-2 {
     .form__block {
@@ -239,40 +236,39 @@ a {
                     margin-bottom: 10px;
                 }
             }
+        }
+        .form__select {
+            max-width: 270px;
+            width: 100%;
+            @media (max-width: 1168px) {
+                max-width: 370px;
+            }
 
-            .form__select {
+            &:after {
+                right: 30px;
+            }
+        }
+
+        input {
+            &:nth-of-type(1) {
+                max-width: 370px;
+                width: 100%;
+            }
+
+            &:nth-of-type(2) {
                 max-width: 270px;
                 width: 100%;
                 @media (max-width: 1168px) {
                     max-width: 370px;
                 }
-
-                &:after {
-                    right: 30px;
-                }
             }
+        }
 
-            input {
-                &:nth-of-type(1) {
-                    max-width: 370px;
-                    width: 100%;
-                }
-
-                &:nth-of-type(2) {
-                    max-width: 270px;
-                    width: 100%;
-                    @media (max-width: 1168px) {
-                        max-width: 370px;
-                    }
-                }
-            }
-
-            button {
-                @media (max-width: 1168px) {
-                    height: 50px;
-                    max-width: 370px;
-                    width: 100%;
-                }
+        button {
+            @media (max-width: 1168px) {
+                height: 50px;
+                max-width: 370px;
+                width: 100%;
             }
         }
     }
@@ -499,18 +495,6 @@ a {
             margin-top: 25px;
             margin-bottom: 20px;
         }
-
-        .slider__circle {
-            margin-right: 10px;
-
-            &:after {
-                content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='12px' height='12px'%3E%3Cpath fill-rule='evenodd' fill='rgb(217, 217, 217)' d='M5.999,-0.004 C9.313,-0.004 12.000,2.683 12.000,5.996 C12.000,9.309 9.313,11.996 5.999,11.996 C2.686,11.996 -0.001,9.309 -0.001,5.996 C-0.001,2.683 2.686,-0.004 5.999,-0.004 Z'/%3E%3C/svg%3E");
-            }
-
-            &:hover {
-                cursor: pointer;
-            }
-        }
     }
 }
 
@@ -531,7 +515,7 @@ a {
         width: 100%;
         margin-bottom: 15px;
 
-        h1 {
+        &-title {
             color: #343434;
             font-size: 30px;
             font-weight: 500;
@@ -539,7 +523,7 @@ a {
             line-height: 1.2;
         }
 
-        p {
+        &-desc {
             color: #868686;
             font-size: 16px;
             line-height: 1.2;
@@ -570,7 +554,7 @@ a {
             width: 100%;
         }
 
-        .rating__number {
+        &__number {
             color: #868686;
             font-size: 16px;
             line-height: 1.2;
@@ -735,7 +719,7 @@ a {
         }
     }
 
-    h1 {
+    &-title {
         font-size: 48px;
         color: #868686;
         font-weight: 700;
@@ -745,7 +729,7 @@ a {
         }
     }
 
-    p {
+    &-desc {
         font-size: 16px;
         color: #868686;
         @media (max-width: 1168px) {
@@ -1339,7 +1323,10 @@ a {
 
             .check__items {
                 padding: 0 20px;
-                margin-top: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 8px;
                 @media (max-width: 1127px) {
                     margin: 10px 0;
                 }
@@ -1832,14 +1819,13 @@ a {
             .links {
                 display: flex;
                 flex-direction: column;
-                
+
                 a + a {
                     margin-top: 10px;
                 }
                 @media (max-width: 991px) {
                     display: none;
                     margin-top: 30px;
-
                 }
             }
         }
